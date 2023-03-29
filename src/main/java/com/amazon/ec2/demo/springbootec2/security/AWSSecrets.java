@@ -22,8 +22,8 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class AWSSecrets {
 
-  private static final String access_key= "AKIAW5QDVYT3S2WYXWLJ";
-  private static final String secret_key= "MxVFef5uXarNlzdxc4xfTHvb69IbarAxWVQjt2hf";
+  private static final String access_key= "<Your access Key>";
+  private static final String secret_key= "<Your Secret Key>";
 
   @Bean
   public DataSource dataSource() {
@@ -40,7 +40,7 @@ public class AWSSecrets {
 
   private  AwsSecretData getSecret() {
 
-    String secretName = "rds-secretkey";
+    String secretName = "<Your secret Key>";
     Region region = Region.getRegion(Regions.US_EAST_2);
 
     AWSSecretsManager awsSecretsManager = AWSSecretsManagerClient.builder().withRegion(Regions.US_EAST_2).
