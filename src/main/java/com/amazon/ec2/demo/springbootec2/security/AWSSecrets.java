@@ -1,10 +1,5 @@
 package com.amazon.ec2.demo.springbootec2.security;
 
-
- //import software.amazon.awssdk.regions.Region;
-//import software.amazon.awssdk.services.secretsmanager.SecretsManagerClient;
-//import software.amazon.awssdk.services.secretsmanager.model.GetSecretValueRequest;
-//import software.amazon.awssdk.services.secretsmanager.model.GetSecretValueResponse;
 import com.amazonaws.auth.AWSStaticCredentialsProvider;
 import com.amazonaws.auth.BasicAWSCredentials;
 import com.amazonaws.regions.Region;
